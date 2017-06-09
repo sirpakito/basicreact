@@ -1,11 +1,9 @@
-import React from "react";
+import React from 'react'
 import { Link } from "react-router-dom";
 
-export default class Header extends React.Component {
-  render() {
-    return (
+const Header = () => (
       <div>
-        <h1>Esto es la cabecera</h1>
+        <h1>Esto es la cabecera de mierda</h1>
         <hr />
         <ul>
           <li><Link to="/app">Home</Link></li>
@@ -13,6 +11,6 @@ export default class Header extends React.Component {
           <li><Link to="/aplicaciones">Aplicaciones</Link></li>
         </ul>
       </div>
-    )
-  }
-}
+)
+
+export default Header

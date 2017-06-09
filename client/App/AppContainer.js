@@ -1,11 +1,11 @@
-import React from "react";
+import React from "react"
 
-import Header from "../commons/Header/HeaderContainer";
-import Main from "../commons/Main/MainContainer";
-import Footer from "../commons/Footer/FooterContainer";
+import HeaderPage from "../commons/Header/HeaderPage"
+import MainPage from "../commons/Main/MainPage"
+import FooterPage from "../commons/Footer/FooterPage"
 
 export default class App extends React.Component {
   render() {
-    return <div><Header /><Main /><Footer /></div>;
+    return <div><HeaderPage /><MainPage /><FooterPage /></div>
   }
 }
